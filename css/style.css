@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body.dark-mode{
+    background-color: #121212;
+    color: #fff;
+}
+
+body.dark-mode .container{
+    background-color: #121212;
+} 
+
+body.dark-mode .card{
+    background-color: #121212;
+    color: #fff;
+} 
+
+body.dark-mode table .table{
+    background-color: #121212;
+    color: #fff;
+} 
+
+body.green-mode{
+    background-color: green;
+    color: #fff;
+}
+
+body.green-mode .container{
+    background-color: green;
+} 
+
+body.green-mode .card{
+    background-color: green;
+    color: #fff;
+} 
+
+body.green-mode table .table{
+    background-color: green;
+    color: #fff;
+} 
+
+body.red-mode{
+    background-color: red;
+    color: #fff;
+}
+
+body.red-mode .container{
+    background-color: red;
+} 
+
+body.red-mode .card{
+    background-color: red;
+    color: #fff;
+} 
+
+body.red-mode table .table{
+    background-color: red;
+    color: #fff;
+} 
+
+.form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+#two{
+    display: none;
+    transition: .2s ease;
+}
+
+a:hover #two{
+    display: block;
+    transition: .2s ease;
+}
+
+a:hover #one{
+    display: none;
+    transition: .2s ease;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border: 1px solid black;
+    transition: .2s;
+    gap: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:1120px) {
+    .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    }
+}
